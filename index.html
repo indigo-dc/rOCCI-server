@@ -1,95 +1,80 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+    <meta name="description" content="rOCCI-server : An OCCI service provider">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>rOCCI-server by EGI-FCTF</title>
+    <title>rOCCI-server</title>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/EGI-FCTF/rOCCI-server">View on GitHub</a>
-    <div class="shell">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>rOCCI-server</h1>
-            <h2>An OCCI service provider</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/EGI-FCTF/rOCCI-server">View on GitHub</a>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/EGI-FCTF/rOCCI-server/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/EGI-FCTF/rOCCI-server/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+          <h1 id="project_title">rOCCI-server</h1>
+          <h2 id="project_tagline">An OCCI service provider</h2>
 
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/EGI-FCTF/rOCCI-server/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/EGI-FCTF/rOCCI-server/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>
-<a name="rocci-server---a-ruby-occi-server" class="anchor" href="#rocci-server---a-ruby-occi-server"><span class="octicon octicon-link"></span></a>rOCCI-server - A Ruby OCCI Server</h1>
+<a id="rocci-server---a-ruby-occi-server" class="anchor" href="#rocci-server---a-ruby-occi-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>rOCCI-server - A Ruby OCCI Server</h1>
 
 <p>The rOCCI-server</p>
 
-<p><a href="http://travis-ci.org/EGI-FCTF/rOCCI-server"><img src="https://secure.travis-ci.org/EGI-FCTF/rOCCI-server.png" alt="Build Status"></a> <a href="https://gemnasium.com/EGI-FCTF/rOCCI-server"><img src="https://gemnasium.com/EGI-FCTF/rOCCI-server.png" alt="Dependency Status"></a></p>
+<p><a href="http://travis-ci.org/EGI-FCTF/rOCCI-server"><img src="https://secure.travis-ci.org/EGI-FCTF/rOCCI-server.png" alt="Build Status"></a> <a href="https://gemnasium.com/EGI-FCTF/rOCCI-server"><img src="https://gemnasium.com/EGI-FCTF/rOCCI-server.png" alt="Dependency Status"></a> <a href="http://dx.doi.org/10.5281/zenodo.12608"><img src="https://zenodo.org/badge/4747/EGI-FCTF/rOCCI-server.svg" alt="DOI"></a></p>
 
 <h2>
-<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
 
 <p>The following setup is required</p>
 
 <ul>
-<li>Ruby &gt;= 1.9.3</li>
+<li>Ruby &gt;= 2.0</li>
 <li>Bundler gem installed (use <code>gem install bundler</code>)</li>
 <li>OpenNebula &gt;= 4.4 if the OpenNebula backend is used</li>
 <li>AWS EC2 account if the EC2 backend is used</li>
 </ul>
 
 <h2>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <p>To install, configure or update rOCCI-server, consult the <a href="https://wiki.egi.eu/wiki/rOCCI:ROCCI-server_Admin_Guide">rOCCI-server Admin Guide</a></p>
 
 <h2>
-<a name="issues" class="anchor" href="#issues"><span class="octicon octicon-link"></span></a>Issues</h2>
+<a id="issues" class="anchor" href="#issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Issues</h2>
 
 <p>To report an issue, use the <a href="https://github.com/EGI-FCTF/rOCCI-server/issues">Issues tracker at GitHub</a></p>
 
 <h2>
-<a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h2>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
 
 <h3>
-<a name="code-documentation" class="anchor" href="#code-documentation"><span class="octicon octicon-link"></span></a>Code Documentation</h3>
+<a id="code-documentation" class="anchor" href="#code-documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Documentation</h3>
 
 <p><a href="http://rubydoc.info/github/EGI-FCTF/rOCCI-server/">Code Documentation for rOCCI by YARD</a></p>
 
 <h3>
-<a name="continuous-integration" class="anchor" href="#continuous-integration"><span class="octicon octicon-link"></span></a>Continuous integration</h3>
+<a id="continuous-integration" class="anchor" href="#continuous-integration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Continuous integration</h3>
 
 <p><a href="http://travis-ci.org/EGI-FCTF/rOCCI-server/">Continuous integration for rOCCI by Travis-CI</a></p>
 
 <h3>
-<a name="contribute" class="anchor" href="#contribute"><span class="octicon octicon-link"></span></a>Contribute</h3>
+<a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribute</h3>
 
 <ol>
 <li>Fork it.</li>
@@ -100,21 +85,17 @@
 <a href="https://help.github.com/articles/using-pull-requests/">Use GitHubs Pull Requests</a> to submit the code for review</li>
 </ol>
       </section>
+    </div>
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/EGI-FCTF">EGI-FCTF</a> can be found on <a href="https://github.com/EGI-FCTF/rOCCI-server">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">rOCCI-server maintained by <a href="https://github.com/EGI-FCTF">EGI-FCTF</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
-
     </div>
 
     
+
   </body>
 </html>
