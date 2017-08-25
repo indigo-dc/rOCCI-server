@@ -1,4 +1,0 @@
-# Deps for the OpenNebula backend
-gem "opennebula", '~> 4.4.0'
-gem "erubis"
-gem 'ox'
